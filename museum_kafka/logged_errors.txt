@@ -1,0 +1,6 @@
+ERROR:__main__:ERROR - Invalid or missing type of assistance entry.
+ERROR:__main__:ERROR - Invalid exhibition id.
+ERROR:__main__:ERROR - Missing some key(s), skipping...
+ERROR:__main__:ERROR - Missing some key(s), skipping...
+ERROR:__main__:ERROR - Invalid site or value, must be a digit.
+ERROR:__main__:ERROR - Invalid or missing type of assistance entry.
