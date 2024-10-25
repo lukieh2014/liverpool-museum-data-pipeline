@@ -81,6 +81,7 @@ venv/
 .terraform
 .terraform.*
 terraform.tfvars
+terraform.tfstate
 
 .venv
 .env
