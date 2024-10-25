@@ -11,20 +11,22 @@ Then, set the right TOPIC at the top of consumer.py for the incoming data stream
 Next, change the variables inside '.env' as follows:
 
 --------------------------
-BOOTSTRAP_SERVERS\n
-SECURITY_PROTOCOL\n
-SASL_MECHANISM         These all relate to connecting to the Kafka data stream.\n
-KUSERNAME\n
-KPASSWORD\n
+These all relate to connecting to the Kafka data stream:
+- BOOTSTRAP_SERVERS
+- SECURITY_PROTOCOL
+- SASL_MECHANISM
+- KUSERNAME
+- KPASSWORD
 --------------------------
 --------------------------
-aws_access_key_id
-aws_secret_access_key
-region
-DB_NAME2               These all relate to connecting to the RDS instance.
-PASSWORD
-HOST (see below for info)
-USERNAME
+These all relate to connecting to the RDS instance:
+- aws_access_key_id
+- aws_secret_access_key
+- region
+- DB_NAME2
+- PASSWORD
+- HOST (see below for info)
+- USERNAME
 --------------------------
 Also, do the following:
 - cd into docker_experiments
