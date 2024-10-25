@@ -11,11 +11,11 @@ Then, set the right TOPIC at the top of consumer.py for the incoming data stream
 Next, change the variables inside '.env' as follows:
 
 --------------------------
-BOOTSTRAP_SERVERS
-SECURITY_PROTOCOL
-SASL_MECHANISM         These all relate to connecting to the Kafka data stream.
-KUSERNAME
-KPASSWORD
+BOOTSTRAP_SERVERS\n
+SECURITY_PROTOCOL\n
+SASL_MECHANISM         These all relate to connecting to the Kafka data stream.\n
+KUSERNAME\n
+KPASSWORD\n
 --------------------------
 --------------------------
 aws_access_key_id
@@ -46,6 +46,7 @@ To take it one step further and move fully to the cloud, run the consumer.py scr
 - ssh into your EC2 instance (you will need your .pemkey) using 'ssh -i .pemkey ec2-user@your-ec2-public-ip'
 - run 'Sudo yum install git'
 - git clone your repo onto the EC2
+- create a new .venv and install requirements.txt
 - create a .env file on the instance and copy over the contents from your current one.
 - finally, run consumer.py as a background task using 'nohup python3 consumer.py &'
 
